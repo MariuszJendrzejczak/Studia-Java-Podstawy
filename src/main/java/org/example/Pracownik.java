@@ -1,6 +1,6 @@
 package org.example;
 
-public class Pracownik extends Osoba
+public abstract class Pracownik extends Osoba
     {
         protected String _stanowisko;
         protected String _numerKarty;
@@ -16,4 +16,6 @@ public class Pracownik extends Osoba
             {
                 return super.Pobeirz()+ " " + _stanowisko + " " + _numerKarty;
             }
+
+        public abstract double DochodyRoczne();
     }

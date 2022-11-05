@@ -16,11 +16,6 @@ public class PracownikEtatowy extends Pracownik
                 return super.Pobeirz() + " " +_placaBrutto + " " + _urlop;
             }
 
-        public String PobierzNazwiskoiPlace()
-            {
-                return _nazwisko + " " + _placaBrutto;
-            }
-
         public  double DochodyRoczne()
             {
                 return _placaBrutto * 12;
