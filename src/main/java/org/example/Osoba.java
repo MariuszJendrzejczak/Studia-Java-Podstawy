@@ -1,6 +1,6 @@
 package org.example;
 
-public class Osoba
+public abstract class Osoba
     {
         protected String _imie;
         protected String _nazwisko;
