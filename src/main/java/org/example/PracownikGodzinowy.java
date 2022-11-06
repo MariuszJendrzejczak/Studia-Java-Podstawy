@@ -4,6 +4,7 @@ public class PracownikGodzinowy extends Pracownik
     {
         private double _liczbaGodzin;
         private double _stawkaGodzinowa;
+
         public PracownikGodzinowy(String imie, String nazwisko, String stanowisko, String numerKarty, double lgodzin, double stawka)
             {
                 super(imie, nazwisko, stanowisko, numerKarty);
@@ -18,7 +19,6 @@ public class PracownikGodzinowy extends Pracownik
 
         public double DochodyRoczne()
             {
-                return _liczbaGodzin*_stawkaGodzinowa;
+                return _liczbaGodzin * _stawkaGodzinowa;
             }
-
     }

@@ -9,7 +9,7 @@ public class Main
                 PracownikEtatowy prac2 = new PracownikEtatowy("Adam", "Etatowy", "Programista", "12235", 8000, 12);
                 PracownikGodzinowy prac3 = new PracownikGodzinowy("Paweł", "Godzinowy", "DevOps", "13254", 48, 25);
 
-                prac2.DrukujRozliczenieRoczne(prac2);
-                prac3.DrukujRozliczenieRoczne(prac3);
+                prac2.DrukujRozliczenieRoczne();
+                prac3.DrukujRozliczenieRoczne();
             }
     }
