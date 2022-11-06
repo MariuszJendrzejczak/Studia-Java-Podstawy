@@ -14,18 +14,6 @@ public abstract class Pracownik extends Osoba implements IRozliczeniaRoczne
 
         public String Pobeirz()
             {
-                return super.Pobeirz()+ " " + _stanowisko + " " + _numerKarty;
-            }
-
-        public abstract double DochodyRoczne();
-        public void DrukujRozliczenieRoczne()
-            {
-                System.out.println("==================");
-                System.out.println("Rozliczenie roczne");
-                System.out.println("Dane pracownika:");
-                System.out.println(Pobeirz());
-                System.out.println("Wartość wynagrodzenia: ");
-                System.out.println(DochodyRoczne());
-                System.out.println("==================");
+                return super.Pobeirz() + " " + _stanowisko + " " + _numerKarty;
             }
     }
