@@ -20,4 +20,5 @@ public class PracownikGodzinowy extends Pracownik
             {
                 return _liczbaGodzin*_stawkaGodzinowa;
             }
+
     }

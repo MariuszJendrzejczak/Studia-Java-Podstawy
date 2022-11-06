@@ -20,4 +20,5 @@ public class PracownikEtatowy extends Pracownik
             {
                 return _placaBrutto * 12;
             }
+
     }
